@@ -9,34 +9,34 @@ class App extends Component {
     return (
       <div className="App">
 
-        <h1>
-        <span>T</span>homas <span>D</span>issert
-        </h1>
-        <Particles 
-        params={{
-          particles: {
-            number: {
-              value: 20,
-              density: {
-                enable: true,
-                value_area: 300
-              }
+      <h1>
+      <span>T</span>homas <span>D</span>issert
+      </h1>
+      <Particles 
+      params={{
+        particles: {
+          number: {
+            value: 20,
+            density: {
+              enable: true,
+              value_area: 300
             }
+          }
 
-          },
-          interactivity: {
-            events: {
-                onhover: {
-                    enable: true,
-                    mode: "repulse"
-                }
+        },
+        interactivity: {
+          events: {
+            onhover: {
+              enable: true,
+              mode: "repulse"
             }
+          }
         }
-        }}
-        />
+      }}
+      />
       </div>
       );
+    }
   }
-}
 
-export default App;
+  export default App;
