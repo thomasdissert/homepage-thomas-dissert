@@ -10,9 +10,9 @@ class App extends Component {
       <div className="App">
 
       <h1>
-      <span>T</span>homas <span>D</span>issert
+        <span>T</span>homas <span>D</span>issert!
       </h1>
-      <Particles 
+      <Particles
       params={{
         particles: {
           number: {

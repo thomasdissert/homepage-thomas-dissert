@@ -15,6 +15,9 @@ body {
 }
 
 h1 {
+	background: rgba(170, 170, 170, 0.3);
+	border-radius: 10px;
+	padding: 0px 10px 0px 10px;
 	pointer-events: none;
 	position: absolute;
 	margin: 30%;
