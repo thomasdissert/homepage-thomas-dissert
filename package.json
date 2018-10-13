@@ -2,7 +2,7 @@
   "name": "homepage-thomas-dissert",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://thomasdissert.github.io/homepage-thomas-dissert",
+  "homepage": "https://thomasdissert.github.io/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.5.2",
@@ -16,8 +16,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -b master -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
