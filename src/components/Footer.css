@@ -1,0 +1,39 @@
+.Footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-transform: uppercase;
+    width: 100%;
+    height: 60px;
+    font-size: 12px;
+	background: #FDFFF2;
+    color: #5F6060;
+    padding-top: 20px;
+    line-height: 20px;
+}
+
+.Footer .widthHolder {
+    max-width: 900px;
+    margin: 0 auto;
+
+}
+
+.Footer .widthHolder .copyright {
+    float: left;
+}
+
+.Footer .widthHolder .social {
+    text-align: right;
+    float: right;
+}
+
+.Footer .widthHolder .social a:link {
+    color: #5F6060;  
+    text-decoration: none;
+}
+
+.Footer .widthHolder .social a:visited {
+    color: #5F6060;  
+    text-decoration: none;
+}

@@ -1,42 +1,22 @@
 import React, { Component } from 'react';
-import './App.css';
+import Header from './components/Header.js';
+import About from './components/About.js';
+import Work from './components/Work.js';
+import Footer from './components/Footer.js';
 
-import Particles from 'react-particles-js';
-import "typeface-roboto"
+import "typeface-roboto";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-
-      <h1>
-        <span>T</span>homas <span>D</span>issert!
-      </h1>
-      <Particles
-      params={{
-        particles: {
-          number: {
-            value: 20,
-            density: {
-              enable: true,
-              value_area: 300
-            }
-          }
-
-        },
-        interactivity: {
-          events: {
-            onhover: {
-              enable: true,
-              mode: "repulse"
-            }
-          }
-        }
-      }}
-      />
+        <Header title="Thomas Dissert"/>
+        <About />
+        <Work />
+        <Footer author='Thomas Dissert' year='2019' email='dissertthomas@gmail.com' linkedin='https://www.linkedin.com/in/thomas-dissert-164356134/' xing='https://www.xing.com/profile/Thomas_Dissert'/>
       </div>
-      );
-    }
+    );
   }
+}
 
-  export default App;
+export default App;
