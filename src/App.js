@@ -13,7 +13,7 @@ class App extends Component {
         <Header title="Thomas Dissert"/>
         <About />
         <Work />
-        <Footer author='Thomas Dissert' year='2019' email='dissertthomas@gmail.com' linkedin='https://www.linkedin.com/in/thomas-dissert-164356134/' xing='https://www.xing.com/profile/Thomas_Dissert'/>
+        <Footer author='Thomas Dissert' year='2019' email='info@thomasdissert.com' linkedin='https://www.linkedin.com/in/thomasdissert' xing='https://www.xing.com/profile/Thomas_Dissert'/>
       </div>
     );
   }
