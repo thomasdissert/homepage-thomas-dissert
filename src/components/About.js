@@ -7,11 +7,11 @@ class About extends Component {
     render() {
         return (
             <div className="About">
-                <h1>
+                <div className="npm">
                     npm init...
-                </h1>
+                </div>
                 <p>
-                    This utility will walk you through creating a Person similar to me.
+                    This utility will walk you through creating a portrayal of mine.
                     It only covers the arguably most interesting items, and tries to guess sensible defaults.<br/><br/><br/>
                 </p>
                 <p>
