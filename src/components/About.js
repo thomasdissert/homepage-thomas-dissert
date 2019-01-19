@@ -23,7 +23,7 @@ class About extends Component {
                 </p>
                 
                 <p>
-                    <span>description</span>: I enjoy learning new technology stacks and in my spare time I like playing board games with my friends
+                    <span>description</span>: I enjoy learning new web development technology stacks
                 </p>
                 
                 <p>

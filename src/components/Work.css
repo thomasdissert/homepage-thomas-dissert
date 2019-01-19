@@ -31,3 +31,18 @@
 .Work p span {
     color: #27182D;
 }
+
+
+.Work p a:link {
+    color: rgb(26, 12, 14);
+    text-decoration: none;
+}
+
+.Work p a:visited {
+    color: rgb(26, 12, 14);
+    text-decoration: none;
+}
+
+.Work p a:hover {
+    font-weight: bold;
+}
