@@ -1,0 +1,47 @@
+.Experiences {
+    position: relative;
+	background: #BBBCB5;
+    font-family: 'Consolas', sans-serif;
+    padding-top: 50px;
+    padding-bottom: 70px;
+	color: rgb(41, 41, 41);
+}
+
+.Experiences h1 {
+    margin: auto;
+    max-width: 800px;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 20px;
+    padding-bottom: 40px;
+}
+
+.Experiences p {
+    margin: auto;
+    max-width: 800px;
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.Experiences p span {
+    color: #27182D;
+}
+
+
+.Experiences p a:link {
+    color: rgb(26, 12, 14);
+    text-decoration: none;
+}
+
+.Experiences p a:visited {
+    color: rgb(26, 12, 14);
+    text-decoration: none;
+}
+
+.Experiences p a:hover {
+    font-weight: bold;
+}

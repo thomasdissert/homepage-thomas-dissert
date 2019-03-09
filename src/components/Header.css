@@ -2,13 +2,25 @@
     position: fixed;
     top: 0;
     left: 0;
-	text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 0.3em;
+	height: 90px;
     width: 100%;
-    line-height: 100px;
-    font-size: 17px;
-    z-index: 1000;
-	background: #FDFFF2;
-	color: #5F6060;
+    background-color: #191A1D;
+    z-index: 1;
+    align-content: center;
+	box-shadow: 0 4px 30px 0 rgba(25,26,29,0.5);
+}
+
+.Header h1 {
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: monospace;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 4px;
+    font-weight: normal;
 }

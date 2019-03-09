@@ -1,0 +1,38 @@
+.Experience {
+    position: relative;
+	background: #BBBCB5;
+    font-family: 'Consolas', sans-serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    min-height: 300px;
+}
+
+.Experience .title {
+    margin: auto;
+    max-width: 800px;
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.Experience .date {
+    margin: auto;
+    max-width: 800px;
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.Experience .desc {
+    margin: auto;
+    max-width: 800px;
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
