@@ -1,0 +1,46 @@
+.everything {
+    width: 960px;
+    margin: auto;
+    top: 25%;
+    position: absolute;
+}
+
+.mainImage {
+    display: inline-block;
+    width: 80%;
+}
+
+.mainImage .image {
+    position: relative;
+    width: 80%;
+    left: 10%;
+    z-index: -1;
+}
+
+.mainImage .impressum {
+    margin-top: -40px;
+    font-size: 1.5em;
+    font-family: "Architects Daughter";
+    text-align: center;
+    width: 100%;
+    color: #333333;
+}
+
+.mainImage .impressum a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.links {
+    position: absolute;
+    display: inline-block;
+    right: 0;
+    width: 17%;
+    
+}
+
+.links .image {
+    position: relative;
+    width: 47%;
+    padding: 6px;
+}
